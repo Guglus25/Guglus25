@@ -1,22 +1,63 @@
-## Hi there 👋
-
 
 # Project Title
 
 A brief description of what this project does and who it's for
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Guglus25)](https://git.io/streak-stats)
-<!--
-**Guglus25/Guglus25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## API Reference
 
-Here are some ideas to get you started:
+#### Get all items
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+
+
+## 🚀 About Me
+I'm a full stack developer...
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+## Roadmap
+
+- Additional browser support
+
+- Add more integrations
+
+
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Express
+
